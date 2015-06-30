@@ -22,3 +22,17 @@ useraccount-twitter
 useraccount-twitter.html::
 
   {{> loginButtons}}
+
+
+useraccount-bitbucket
+---------------------
+
+  $ meteor create useraccount-bitbucket
+  $ cd useraccount-bitbucket/
+  $ meteor add accounts-ui
+  $ meteor add tarang:accounts-bitbucket
+  $ meteor
+
+useraccount-bitbucket.html::
+
+  {{> loginButtons}}
